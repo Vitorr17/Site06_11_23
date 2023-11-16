@@ -53,7 +53,7 @@ namespace Web06_11_23.Controllers
             model.Consulta = _context.Consulta.ToList();
             return View(model);
         }
-
+            
         // POST: Consultas/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.

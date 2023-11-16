@@ -2,7 +2,7 @@
 
 namespace Web06_11_23.Models
 {
-    public class ConsultaModel
+    public class ConsultaModel : Paciente
     {
         [Key]
         public int idConsulta { get; set; }
